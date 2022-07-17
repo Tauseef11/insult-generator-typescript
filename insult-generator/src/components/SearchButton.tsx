@@ -25,7 +25,7 @@ export const SearchButton = ({
 
   const handleClearOnClick = () => {
     setText('');
-    setEventValue(eventValue ? '' : '');
+    setEventValue('');
     setIsDisabled(true);
   };
 
